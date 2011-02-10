@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), url('/fonts/DroidSans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Sans'), url('/fonts/DroidSans-Bold.ttf') format('truetype');
+}
+
+/* templates */
+.error, .exception, .info, .warning {
+	margin:20px 0 0 0;
+	padding:5px;
+	font-size:1.5em;
+	text-align:center;
+}
+.error, .exception {
+	color:red;
+	font-weight:bold;
+}
+
+/*=========================================================*/
+
+/* Fixed */
+html {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body {
+	font-size:12px;
+	font-family: "Droid Sans", "Dejavu Sans", Verdana, sans-serif;
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:hidden;
+}
+button, input, textarea, select {
+	font-size:12px;
+	font-family: "Droid Sans", "Dejavu Sans", Verdana, sans-serif;
+}
+input[type=checkbox],
+input[type=radio] {
+	margin:0;
+}
+.boxwrap {
+	height:100%;
+	width:100%;
+}
+.flexwrap {
+	position:relative;
+	overflow:auto;
+}
+.panel {
+	margin-bottom:5px;
+}
+.popupmenu {
+	display:none;
+	position:absolute;
+	z-index:500;
+	list-style-type:none;
+	margin:0;
+	padding:6px 0;
+	border:1px solid;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	opacity:0;
+	
+	-webkit-transition: opacity 0.15s linear;
+	-moz-transition: opacity 0.1s linear;
+	-o-transition: opacity 0.1s linear;
+	transition: opacity 0.1s linear;
+}
+.popupmenu.visible {
+	opacity:0.9;
+	display:block;
+}
+.popupmenu li {
+	padding:2px 4px;
+	cursor:default;
+}
+.popupmenu li img {
+	vertical-align:middle;
+}
+.button, .textfield, .radius {
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.textfield {
+	padding:2px 3px;
+}
+.pbutton {
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:2px;
+}
+button:focus, input:focus {
+	outline:0;
+}
+button, input[type=button], input[type=submit], input[type=image] {
+	padding:2px 3px;
+}
+button img {
+	vertical-align:middle;
+}
+select option {
+	padding:1px 6px;
+
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+	-o-transition: background 0.2s linear;
+	transition: background 0.2s linear;
+}
+select:focus, button:focus, select option:focus {
+	outline:0;
+}
+.rsgrid {
+	position:absolute;
+}
+.flexbox {
+	display: -moz-box;
+	display: -webkit-box;
+}
+.flex {
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+}
+.flexv {
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+}
+.flexh {
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+}

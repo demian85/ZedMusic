@@ -1,0 +1,15 @@
+#!/bin/sh
+
+case "$1" in
+'start')
+	php /home/shared/www/zedmusic/application/scripts/zedmusic_server.php > /dev/null &
+	;;
+'stop')
+	killall php \/home/shared/www/zedmusic/application/scripts/zedmusic_server.php
+	;;
+*)
+	echo "Usage: $0 { start | stop }"
+	;;
+esac
+exit 0
+

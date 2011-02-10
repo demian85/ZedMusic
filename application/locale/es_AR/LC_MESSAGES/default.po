@@ -1,0 +1,566 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zedmusic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-18 19:20-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Demian\n"
+"Language-Team: Zedplan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: ARGENTINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/demian/www/projects/zedmusic\n"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:69
+msgid "Unable to find lyrics for current song."
+msgstr "Imposible encontrar la letra para el tema actual."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:76
+#, php-format
+msgid "Unable to find lyrics for <em>“%s”</em>"
+msgstr "Imposible encontrar la letra para <em>“%s”</em>"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:79
+#, php-format
+msgid "Lyrics for <em>“%s”</em>"
+msgstr "Letra para <em>“%s”</em>"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:137
+msgid "Invalid action"
+msgstr "Acción inválida"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:197
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:207
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:217
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:63
+msgid "Invalid file name"
+msgstr "Nombre de archivo inválido"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:226
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:236
+#, php-format
+msgid "This operation is not allowed if the current playlist does not have at least %d songs."
+msgstr "Esta opeación no está permitida si la lista no tiene al menos %d temas."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:287
+msgid "Invalid file(s)"
+msgstr "Archivo(s) inválido(s)"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:296
+msgid "An error occured uploading the file(s)"
+msgstr "Ha ocurrido un error subiendo los archivos"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:352
+msgid "Unable to create folder. Check write permissions."
+msgstr "Error al crear carpeta. Revisa los permisos."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:376
+msgid "Invalid name or URL."
+msgstr "Datos inválidos,"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/CtrlController.php:411
+msgid "Invalid file path."
+msgstr "Ruta de archivo inválida."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:46
+msgid "Play"
+msgstr "Reproducir"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:47
+msgid "Playing"
+msgstr "Reproduciendo"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:48
+msgid "Stopped"
+msgstr "Parado"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:49
+msgid "Pause"
+msgstr "Pausa"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:50
+msgid "Paused"
+msgstr "Pausado"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:51
+msgid "Remove"
+msgstr "Eliminar"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:52
+msgid "Load"
+msgstr "Cargar"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:53
+msgid "All"
+msgstr "Todos"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:54
+msgid "Save"
+msgstr "Guardar"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:55
+msgid "Add"
+msgstr "Agregar"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:56
+msgid "Add & Play"
+msgstr "Agregar y reproducir"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:57
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:58
+msgid "File"
+msgstr "Archivo"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:59
+msgid "Title"
+msgstr "Título"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:60
+msgid "Artist"
+msgstr "Artista"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:61
+msgid "Album"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:62
+msgid "Duration"
+msgstr "Duración"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:64
+msgid "Save playlist"
+msgstr "Guardar lista"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:65
+msgid "Load playlist..."
+msgstr "Cargar lista"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:66
+msgid "Read more..."
+msgstr "Leer más..."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:67
+msgid "Read less..."
+msgstr "Leer menos..."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:68
+msgid "No artist biography found"
+msgstr "No se ha encontrado biografía para el artista"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:69
+msgid "Upload Files"
+msgstr "Subir archivos"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:70
+msgid "File is too large"
+msgstr "El archivo es muy grande"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:71
+msgid "Upload"
+msgstr "Subir"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:72
+msgid "Files are not ready yet! Please wait..."
+msgstr "Los archivos no estan listos todavía! Por favor espera..."
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:73
+msgid "Please select files to upload"
+msgstr "Por favor selecciona los archivos a subir"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:74
+msgid "Add random files"
+msgstr "Agregar archivos aleatorios"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:75
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:76
+msgid "Are you sure?"
+msgstr "¿Estás seguro?"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:77
+msgid "Add Shoutcast"
+msgstr "Agregar Shoutcast"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:78
+msgid "Stop Server"
+msgstr "Parar servidor"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:79
+msgid "Enable Server"
+msgstr "Habilitar servidor"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:80
+msgid "File upload is not supported in your browser!"
+msgstr "Tu navegador no soporta este método para subir archivos!"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:81
+msgid "Create folder"
+msgstr "Crear carpeta"
+
+#: /home/demian/www/projects/zedmusic/application/controllers/HomeController.php:87
+msgid "Search library..."
+msgstr "Buscar en librería..."
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:8
+#: /home/demian/www/projects/zedmusic/application/views/home.php:6
+msgid "Previous"
+msgstr "Anterior"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:10
+#: /home/demian/www/projects/zedmusic/application/views/home.php:8
+msgid "Stop"
+msgstr "Parar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:11
+#: /home/demian/www/projects/zedmusic/application/views/home.php:9
+msgid "Next"
+msgstr "Próximo"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:12
+#: /home/demian/www/projects/zedmusic/application/views/home.php:63
+msgid "I don't like this!"
+msgstr "No me gusta!"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:14
+#: /home/demian/www/projects/zedmusic/application/views/home.php:11
+msgid "Repeat mode"
+msgstr "Modo Repetir"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:15
+#: /home/demian/www/projects/zedmusic/application/views/home.php:12
+msgid "Random mode"
+msgstr "Modo aleatorio"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:74
+#: /home/demian/www/projects/zedmusic/application/views/home.php:79
+msgid "Clear List"
+msgstr "Borrar Lista"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:75
+#: /home/demian/www/projects/zedmusic/application/views/home.php:80
+msgid "Crop"
+msgstr "Recortar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:76
+#: /home/demian/www/projects/zedmusic/application/views/home.php:82
+msgid "Shuffle"
+msgstr "Mezclar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:78
+#: /home/demian/www/projects/zedmusic/application/views/home.php:85
+msgid "Add URL..."
+msgstr "Agregar URL..."
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:84
+#: /home/demian/www/projects/zedmusic/application/views/home.php:92
+msgid "Columns"
+msgstr "Columnas"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:103
+#: /home/demian/www/projects/zedmusic/application/views/home.php:113
+msgid "Playlist is empty. Check the library and add some files!"
+msgstr "La lista esta vacía. Buscá en la librería y agregá algunos archivos!"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:132
+#: /home/demian/www/projects/zedmusic/application/views/home.php:203
+msgid "Update Library"
+msgstr "Actualizar Librería"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:134
+#: /home/demian/www/projects/zedmusic/application/views/home.php:207
+msgid "Search"
+msgstr "Buscar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:135
+#: /home/demian/www/projects/zedmusic/application/views/home.php:208
+msgid "Clear"
+msgstr "Borrar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:141
+#: /home/demian/www/projects/zedmusic/application/views/home.php:214
+msgid "Displaying"
+msgstr "Mostrando"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:141
+#: /home/demian/www/projects/zedmusic/application/views/home.php:214
+msgid "files"
+msgstr "archivos"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:148
+#: /home/demian/www/projects/zedmusic/application/views/home.php:221
+msgid "Genre"
+msgstr "Género"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:151
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:160
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:169
+#: /home/demian/www/projects/zedmusic/application/views/home.php:224
+#: /home/demian/www/projects/zedmusic/application/views/home.php:233
+#: /home/demian/www/projects/zedmusic/application/views/home.php:242
+msgid "ALL"
+msgstr "TODOS"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:191
+#: /home/demian/www/projects/zedmusic/application/views/home.php:290
+msgid "Language"
+msgstr "Lenguaje"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:200
+#: /home/demian/www/projects/zedmusic/application/views/home.php:299
+msgid "Enable shortcuts"
+msgstr "Habilitar atajos de teclado"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:202
+#: /home/demian/www/projects/zedmusic/application/views/home.php:301
+msgid "Search library"
+msgstr "Buscar en librería"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:204
+#: /home/demian/www/projects/zedmusic/application/views/home.php:303
+msgid "Decrease volume by 5"
+msgstr "Bajar volumen un 5%"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:205
+#: /home/demian/www/projects/zedmusic/application/views/home.php:304
+msgid "Increase volume by 5"
+msgstr "Subir volumen un 5%"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:206
+#: /home/demian/www/projects/zedmusic/application/views/home.php:305
+msgid "Play/Pause"
+msgstr "Reproducir/Pausar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:212
+#: /home/demian/www/projects/zedmusic/application/views/home.php:311
+msgid "The following music genres will be considered when adding random files:"
+msgstr "Los siguientes géneros serán considerados al agregar música aleatoria:"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:233
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:245
+#: /home/demian/www/projects/zedmusic/application/views/home.php:334
+#: /home/demian/www/projects/zedmusic/application/views/home.php:348
+msgid "Add selection"
+msgstr "Agregar selección"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:234
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:246
+#: /home/demian/www/projects/zedmusic/application/views/home.php:335
+#: /home/demian/www/projects/zedmusic/application/views/home.php:349
+msgid "Add selection &amp; Play"
+msgstr "Agregar selección &amp; reproducir"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:235
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:247
+#: /home/demian/www/projects/zedmusic/application/views/home.php:336
+#: /home/demian/www/projects/zedmusic/application/views/home.php:350
+msgid "Add all"
+msgstr "Agregar todos"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:236
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:248
+#: /home/demian/www/projects/zedmusic/application/views/home.php:337
+#: /home/demian/www/projects/zedmusic/application/views/home.php:351
+msgid "Add all &amp; Play"
+msgstr "Agregar todos &amp; reproducir"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:240
+#: /home/demian/www/projects/zedmusic/application/views/home.php:341
+msgid "Add folder recursively"
+msgstr "Agregar carpeta recursivamente"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:241
+#: /home/demian/www/projects/zedmusic/application/views/home.php:342
+msgid "Add folder recursively &amp; Play"
+msgstr "Agregar carpeta recursivamente &amp; reproducir"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:249
+#: /home/demian/www/projects/zedmusic/application/views/home.php:352
+msgid "Local Play"
+msgstr "Reproducir localmente"
+
+#: /home/demian/www/projects/zedmusic/application/views/home-mobile.php:250
+#: /home/demian/www/projects/zedmusic/application/views/home.php:353
+msgid "Download File"
+msgstr "Bajar archivo"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:17
+msgid "Volume"
+msgstr "Volumen"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:18
+msgid "Crossfade"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:28
+msgid "Shoutcast"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:30
+msgid "Add New..."
+msgstr "Agregar..."
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:34
+msgid "Playlists"
+msgstr "Listas"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:57
+msgid "Playlist"
+msgstr "Lista de reproducción"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:58
+msgid "Artist Info"
+msgstr "Información del Artista"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:134
+msgid "Top Albums"
+msgstr "Albums populares"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:143
+msgid "Tags"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:148
+msgid "Top Tracks"
+msgstr "Temas populares"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:153
+msgid "Similar Artists"
+msgstr "Artistas similares"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:169
+msgid "Library"
+msgstr "Librería"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:170
+msgid "File Browser"
+msgstr "Explorador de Archivos"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:171
+msgid "Log"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:172
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:173
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:186
+msgid "Drop your files here"
+msgstr "Arrastra y suelta archivos aquí"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:264
+msgid "User"
+msgstr "Usuario"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:265
+msgid "IP"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:266
+msgid "Time"
+msgstr "Hora"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:267
+msgid "Action"
+msgstr "Acción"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:277
+msgid "Most played songs"
+msgstr "Temas mas escuchados"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:286
+msgid "User name"
+msgstr "Nombre de usuario"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:343
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:359
+msgid "Enter playlist name"
+msgstr "Introduzca el nombre de la lista"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:367
+msgid "Drag & Drop files on any folder within the file browser."
+msgstr "Arrastra y suelta archivos en cualquier carpeta dentro del administrador de archivos."
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:368
+msgid "Selected upload directory: "
+msgstr "Directorio de upload: "
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:370
+msgid "You can select multiple files or a directory"
+msgstr "Puedes seleccionar múltiples archivos o un directorio"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:381
+msgid "How many files?"
+msgstr "¿Cuántos archivos?"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:385
+msgid "Genres"
+msgstr "Géneros"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:386
+msgid "Check all"
+msgstr "Seleccionar todos"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:406
+#: /home/demian/www/projects/zedmusic/application/views/home.php:419
+msgid "Name"
+msgstr "Nombre"
+
+#: /home/demian/www/projects/zedmusic/application/views/home.php:410
+msgid "URL"
+msgstr ""
+
+#: /home/demian/www/projects/zedmusic/application/views/file_stats.php:9
+msgid "Play count"
+msgstr "Cantidad de reproducciones"
+
+#~ msgid "Select file(s)"
+#~ msgstr "Seleccionar archivo(s)"
+#~ msgid "Add Folder"
+#~ msgstr "Agregar Carpeta"
+#~ msgid "Progress"
+#~ msgstr "Progreso"
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+#~ msgid "Shortcuts"
+#~ msgstr "Atajos"
+#~ msgid "decrease volume"
+#~ msgstr "bajar volumen"
+#~ msgid "increase volume"
+#~ msgstr "subir volumen"
+#~ msgid "pause"
+#~ msgstr "pausa"
+#~ msgid "Add to playlist"
+#~ msgstr "Agregar a la lista"
+#~ msgid "anonymous"
+#~ msgstr "anónimo"
+#~ msgid "Date &amp; Time"
+#~ msgstr "Fecha &amp; Hora"
+#~ msgid "Select all"
+#~ msgstr "Seleccionar todos"
+#~ msgid "Seek"
+#~ msgstr "Buscar"
+#~ msgid "Artist Details"
+#~ msgstr "Detalles del artista"
+#~ msgid "Searching..."
+#~ msgstr "Buscando..."
+#~ msgid "File should not exceed 10MB"
+#~ msgstr "El archivo no debe exceder los 10MB"
+#~ msgid "Date"
+#~ msgstr "Fecha"
+#~ msgid "Read More..."
+#~ msgstr "Leer más..."
+

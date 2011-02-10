@@ -1,0 +1,250 @@
+/*
+hover : #003147
+link hover : #ccc;
+active : #0972A5
+border: #555
+background1: #000;
+background2: #111;
+color: #eee;
+highlight: #DEDF7D
+active border: #26B3F7
+*/
+body {
+	background:black;
+	color:#eee;
+}
+a, a:link {
+	color:#eee;
+}
+select, option, optgroup {
+	background:#000;
+	color:#eee;
+}
+select, meter {
+	border-color:#555;
+}
+select option:nth-child(odd) {
+	background: #111;
+}
+.button:disabled {
+	color:gray;
+}
+select option:hover {
+	background: #003147;
+}
+.popupmenu {
+	background:#000;
+	border-color:#555;
+}
+.popupmenu li:hover {
+	background: #003147;
+}
+
+#grid-left, #grid-rightbottom, #controls, #grid-leftbottom-bottom {
+	border-color:#555;
+}
+#grid-left a:hover {
+	color:#ccc;
+}
+
+.tab-panel {
+	border-color:#26B3F7;
+}
+.tab-panel ul li a {
+	border-bottom-color: #555;
+}
+
+.ui-state-hover {
+	background: -moz-linear-gradient(
+		center top,
+		#003147 30%,
+		#111 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #003147),
+		color-stop(1, #111)
+	);
+}
+.ui-state-active {
+	background: -moz-linear-gradient(
+		center top,
+		#0972A5 30%,
+		#003147 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #0972A5),
+		color-stop(1, #003147)
+	);
+}
+
+.slider .ui-slider-handle,
+#progress-slider .ui-progressbar-value {
+	background: -moz-linear-gradient(
+		center top,
+		#0972A5 30%,
+		#003147 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #0972A5),
+		color-stop(1, #003147)
+	);
+}
+
+.tablegrid tbody tr:nth-child(odd) {
+	background:#0F0F0F;
+}
+.tablegrid tbody tr:hover td {
+	background:#003147;
+}
+
+#tab-artist a,
+#tab-artist a:link,
+#tab-artist a:visited {
+	color:#eee;
+}
+#tab-artist a:hover {
+	color:#ccc;
+}
+#artist-similar a:hover,
+#artist-albums a:hover {
+	background:#003147;
+	color:#eee;
+}
+#artist-txt .separator {
+	border-color:#555;
+}
+
+#lib-filter-pane > div, #lib-list-pane {
+	border-color:#555;
+}
+
+#lib-filebrowser-wrapper, #lib-filebrowser-files {
+	border-color:#555;
+}
+#lib-filebrowser li > div .name:hover,
+#lib-filebrowser li > div .name.hover {
+	background:#003147;
+}
+#lib-filebrowser li.selected > div .name {
+	background:#0972A5;
+}
+
+#playlist-head li:hover {
+	background: -moz-linear-gradient(
+		center top,
+		#003147 30%,
+		#111 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #003147),
+		color-stop(1, #111)
+	);
+}
+#playlist-body li:nth-child(odd) {
+	background: -moz-linear-gradient(
+		center top,
+		#111 30%,
+		#000 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #111),
+		color-stop(1, #000)
+	);
+}
+#playlist-body li:hover {
+	background: -moz-linear-gradient(
+		center top,
+		#003147 30%,
+		#111 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #003147),
+		color-stop(1, #111)
+	);
+}
+#playlist-body li.active {
+	background: -moz-linear-gradient(
+		center top,
+		#0972A5 30%,
+		#003147 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #0972A5),
+		color-stop(1, #003147)
+	);
+}
+#playlist-head li,
+#playlist-body li > div {
+	border-right-color: #555;
+}
+
+#playlist-head li.dragover,
+#playlist-body li.dragover,
+#playlist-body li > div.dragover {
+	background: -moz-linear-gradient(
+		center top,
+		#DEDF7D 30%,
+		#5E5F00 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #DEDF7D),
+		color-stop(1, #5E5F00)
+	);
+}
+#playlist-columns-menu {
+	background:black;
+}
+#playlist-columns-menu li label:hover {
+	background: #003147;
+}
+
+.listblock ul li:hover {
+	background: -moz-linear-gradient(
+		center top,
+		#003147 30%,
+		#000 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.3, #003147),
+		color-stop(1, #000)
+	);
+}
+
+#tab-pref .block {
+	border-color:#555;
+}
+#randomfiles-dialog label:hover,
+#tab-pref .user-genres label:hover {
+	background: #003147;
+}
+#randomfiles-dialog input:checked + span,
+#tab-pref .user-genres input:checked + span {
+	font-weight:bold;
+}
